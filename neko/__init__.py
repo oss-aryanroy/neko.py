@@ -15,7 +15,7 @@ __title__ = 'neko'
 __author__ = 'Bur-ham'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2022-present Bur-ham'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 class Version(NamedTuple):
@@ -24,6 +24,6 @@ class Version(NamedTuple):
     micro: int
     release: Literal['alpha', 'beta', 'stable', 'final']
 
-version = Version(1, 0, 0, 'final')
+version = Version(1, 0, 1, 'final')
 
 

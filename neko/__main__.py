@@ -12,7 +12,7 @@ def show_version() -> None:
 
     entries.append('- Python v{0.major}.{0.minor}.{0.micro}-{0.releaselevel}'.format(sys.version_info))
     version_info = neko.version
-    entries.append('- neko.py v{0.major}.{0.minor}.{0.micro}-{0.releaselevel}'.format(version_info))
+    entries.append('- neko.py v{0.major}.{0.minor}.{0.micro}-{0.release}'.format(version_info))
     if version_info.release != 'final':
         pkg = pkg_resources.get_distribution('neko.py')
         if pkg:

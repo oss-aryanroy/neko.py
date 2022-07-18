@@ -13,7 +13,7 @@ except Exception:
 setup(
 	name='neko.py',
 	packages=find_packages('.'),
-	version='1.0.0',
+	version='1.0.1',
 	license='MIT',
 	description='An API Wrapper for the NekoBot API', 
 	long_description=long_description,
