@@ -8,7 +8,7 @@ A Python API Wrapper for [NekoBot API](https://docs.nekobot.xyz/#image-generatio
 ```py
 import neko
 
-client = neko.NekoClient(token)
+client = neko.NekoClient()
 
 async def get_image():
     image = await client.generate_image('baguette', 'https://example.com/image.jpg')
