@@ -1,8 +1,8 @@
-#Neko.py
+# Neko.py
 
 A Python API Wrapper for [NekoBot API](https://docs.nekobot.xyz/#image-generation-threats)
 
-#usage
+# usage
 
 ```py
 import neko
